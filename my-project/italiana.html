@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CocinAroma</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<header class="bg-green-700 text-white flex items-center w-full h-24 p-6 fixed top-0 left-0 z-10">
+  <a href="ajustes.html">
+      <button id="menu" class="focus:outline-none"><img class="h-8 mr-2" src="/public/menu.png" alt="Menu"></button>
+  </a>
+  <h1 class="text-5xl font-bold text-center flex-1">COCINAROMA</h1>
+  <button class="focus:outline-none"><img class="h-8" src="/public/configuraciones.png" alt="configuraciones"></button>
+</header>
+
+<body class="bg-gray-100 flex flex-col items-center justify-start min-h-screen">
+  <div class="relative h-screen bg-cover bg-center w-full" style="background-image: url('/public/comidaitaliana.jpg');">
+    <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+    <div class="relative flex flex-col items-center justify-center h-full p-4">
+        <div class=" p-6 rounded-xl text-center text-white max-w-lg">
+            <h2 class="text-7xl font-semibold font-serif">COMIDA ITALIANA</h2>
+        </div>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br>
+        <div class="bg-white  rounded-lg shadow-lg mt-8 max-w-md w-full">
+            <div class="flex">
+                <input type="text" placeholder="¿Qué te gustaría el día de hoy?" class="flex-1 p-2 border border-gray-300">
+                <button class="bg-green-700 text-white px-3 rounded-r-lg  hover:bg-green-600">Buscar</button>
+            </div>
+        </div>
+    </div>
+</div>
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-4"></div>
+  <main class="flex-1 pt-24 pb-24 px-4">
+<a href="pagina2.html">
+      <div class="bg-white rounded-lg shadow-md overflow-hidden max-w-lg mx-auto mt-12">
+        <div class="relative">
+          <img src="/public/frittata.jpg" alt="frittata" class="w-full h-32 object-cover">
+        </div>
+        <div class="p-4">
+          <div class="flex items-center justify-between mb-2">
+            <img src="/public/corazon.png" alt="corazon" class="h-12 w-12">
+            <h2 class="text-lg font-semibold">FRITTATA </h2>
+            <img src="/public/marcador.png" alt="marcador" class="h-12 w-12">
+          </div>
+        </div>
+      </div>
+      </a>
+      <div class="bg-white rounded-lg shadow-md overflow-hidden max-w-lg mx-auto mt-12">
+        <div class="relative">
+          <img src="/public/Fettuccine Alfredo.png" alt="Fettuccine Alfredo" class="w-full h-32 object-cover">
+        </div>
+        <div class="p-4">
+          <div class="flex items-center justify-between mb-2">
+            <img src="/public/corazon.png" alt="corazon" class="h-12 w-12">
+            <h2 class="text-lg font-semibold">FETTUCCINE ALFREDO</h2>
+            <img src="/public/marcador.png" alt="marcador" class="h-12 w-12">
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-lg shadow-md overflow-hidden max-w-lg mx-auto mt-12">
+        <div class="relative">
+          <img src="/public/Ossobuco.png" alt="Ossobuco" class="w-full h-32 object-cover">
+        </div>
+        <div class="p-4">
+          <div class="flex items-center justify-between mb-2">
+            <img src="/public/corazon.png" alt="corazon" class="h-12 w-12">
+            <h2 class="text-lg font-semibold">OSSOBUCO</h2>
+            <img src="/public/marcador.png" alt="marcador" class="h-12 w-12">
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="bg-white rounded-lg shadow-md overflow-hidden max-w-lg mx-auto mt-12">
+        <div class="relative">
+          <img src="/public/risottochampinones.png" alt="risottochampinones" class="w-full h-32 object-cover">
+        </div>
+        <div class="p-4">
+          <div class="flex items-center justify-between mb-2">
+            <img src="/public/corazon.png" alt="corazon" class="h-12 w-12">
+            <h2 class="text-lg font-semibold"> RISOTTO DE CHAMPIÑONES</h2>
+            <img src="/public/marcador.png" alt="marcador" class="h-12 w-12">
+          </div>
+        </div>
+      </div>
+      <div class="bg-white rounded-lg shadow-md overflow-hidden max-w-lg mx-auto mt-12">
+        <div class="relative">
+          <img src="/public/pizza.png" alt="pizza" class="w-full h-32 object-cover">
+        </div>
+        <div class="p-4">
+          <div class="flex items-center justify-between mb-2">
+            <img src="/public/corazon.png" alt="corazon" class="h-12 w-12">
+            <h2 class="text-lg font-semibold">PIZZA NAPOLES</h2>
+            <img src="/public/marcador.png" alt="marcador" class="h-12 w-12">
+          </div>
+        </div>
+      </div>
+  </main>
+
+  </div>
+  <footer class="bg-green-600 flex justify-between items-center gap-6 px-2 py-2 fixed bottom-0 w-full">
+    <button id="1" class="bg-transparent border-none">
+      <img src="/public/local.png" class="h-10 w-10" alt="Icon 1">
+    </button>
+    <button id="2" class="bg-transparent border-none">
+      <img src="/public/libro.png" class="h-10 w-10" alt="Icon 2">
+    </button>
+    <button id="3" class="bg-transparent border-none">
+      <img src="/public/pastel.png" class="h-10 w-10" alt="Icon 3">
+    </button>
+    <button id="4" class="bg-transparent border-none">
+      <img src="/public/bd35fd3f37456ec8ab11.png" class="h-10 w-10" alt="Icon 4">
+    </button>
+    <button id="5" class="bg-transparent border-none">
+      <img src="/public/sombrero-de-cocinero.png" class="h-10 w-10" alt="Icon 5">
+    </button>
+    <button id="6" class="bg-transparent border-none">
+      <img src="/public/a260a4691a1e49fdc140.png" class="h-10 w-10" alt="Icon 6">
+    </button>
+  </footer>
+</body>
+
+</html>
